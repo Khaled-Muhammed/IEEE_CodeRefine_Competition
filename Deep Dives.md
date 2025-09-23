@@ -16,4 +16,32 @@
 - Deploy Real time Personalization using collaborative filtering
 - Implement A/B testing framework for algorithm optimization
 
-  
+### Message Synchronization Protocols:
+- Implement last-write-wins vector clocks for conflict resolution
+- Use Operational Transformation for real-time collaborative editing
+- Deploy differential synchronization for efficient data transfer
+- implement message queue per user for offline message delivery
+
+### Notifications
+
+- Send alerts for new movies, reviews, or trends.
+- Event-based: system publishes events → notifications sent.
+- Can be in-app, push, or email.
+- Filters by user preferences and avoids spamming.
+
+### Data Flow
+
+- Add Job: Employer → Database → Search Index → Notifications → Users
+- Add Review: User → Database → Update rating → Recommendations
+
+### Caching
+
+- Redis: for search, recommendations, sessions
+- CDN: for posters and trailers
+
+
+### Operations
+
+- Regular backups
+- Batch jobs for recommendations and search indexing
+- Scale database and search cluster as needed
