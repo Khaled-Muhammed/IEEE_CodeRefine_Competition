@@ -27,4 +27,4 @@ Total storage: 10000000 × 0.5 KB = 5 GB
 ## Team:
 ### Ahmed Basem Mohamed
 ### Mohamed ElMetwally Sobhy
-### Khaled Mohamed
+### Khaled Mohamed Ali
